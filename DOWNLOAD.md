@@ -17,7 +17,7 @@
         <li>Foreground typing fallback with clipboard paste for full compatibility</li>
     </ul>
     <p>Click the button below to download the EXE:</p>
-    <a class="button" href="https://www.mediafire.com/file/kg6ffy6wvpcjcup/overlay_uia_writer.exe/file" target="_blank">Download .EXE Version</a>
+    <a class="button" href="https://www.mediafire.com/file/kg6ffy6wvpcjcup/overlay_uia_writer.exe/file" target="_new">Download .EXE Version</a>
     <h2>Instructions</h2>
     <ol>
         <li>Download the EXE using the link above.</li>
