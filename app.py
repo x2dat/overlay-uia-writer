@@ -1,7 +1,7 @@
 """
 Overlay UIA Writer
 - Draggable always-on-top translucent PyQt6 overlay.
-- Capture target with Alt+Shift+T. Quit with Alt+Shift+Q.
+- Capture target with Alt+Shift+U. Quit with Alt+Shift+Q.
 - If target control supports UI Automation (Value/Text pattern), the app will set the control's text
   directly (background write) while this overlay remains focused.
 - If UIA is not supported for the target, the overlay will notify you and typing must be done with
@@ -211,7 +211,7 @@ class Overlay(QWidget):
         row1 = QHBoxLayout()
         clipboard_btn = QPushButton("Use Clipboard"); clipboard_btn.clicked.connect(self.use_clipboard)
         row1.addWidget(clipboard_btn)
-        select_btn = QPushButton("Select Target (Alt+Shift+T)"); select_btn.clicked.connect(self.show_capture_instructions)
+        select_btn = QPushButton("Select Target (Alt+Shift+U)"); select_btn.clicked.connect(self.show_capture_instructions)
         row1.addWidget(select_btn)
         v.addLayout(row1)
 
@@ -367,7 +367,7 @@ class Overlay(QWidget):
             self.update_status("No text to write.")
             return
         if not self.target_hwnd:
-            self.update_status("No target captured. Use Alt+Shift+T while target is focused.")
+            self.update_status("No target captured. Use Alt+Shift+U while target is focused.")
             return
 
         def get_text(): return self.text_edit.toPlainText()
