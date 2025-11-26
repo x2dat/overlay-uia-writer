@@ -286,11 +286,11 @@ class Overlay(QWidget):
         QMessageBox.information(self, "Capture target",
             "To capture a target control (for background writing):\n\n"
             "1) Switch to the app and click inside the text field you want to target.\n"
-            "2) Press the global hotkey: Alt+Shift+T\n\n"
+            "2) Press the global hotkey: Alt+Shift+U\n\n"
             "If the control supports UI Automation, this overlay can set its value without giving that window focus."
         )
 
-    # hotkeys: Alt+Shift+T to capture; Alt+Shift+Q to quit
+    # hotkeys: Alt+Shift+T to capture; Alt+Shift+U to quit
     def register_hotkeys(self):
         def on_capture():
             self.attempt_capture_active_window()
@@ -300,7 +300,7 @@ class Overlay(QWidget):
             QApplication.instance().quit()
 
         hotkeys = {
-            '<alt>+<shift>+t': on_capture,
+            '<alt>+<shift>+u': on_capture,
             '<alt>+<shift>+q': on_quit
         }
         self._hotkey_listener = keyboard.GlobalHotKeys(hotkeys)
