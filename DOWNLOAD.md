@@ -7,6 +7,7 @@
 
 <div class="container">
     <h1>Overlay Typing App</h1>
+    <p>Download .py page: https://github.com/x2dat/overlay-uia-writer/blob/main/app.py</p>
     <h2>Download the EXE</h2>
     <p>Get the latest compiled Windows executable of the Overlay Typing App. This version includes:</p>
     <ul>
