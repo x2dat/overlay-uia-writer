@@ -14,12 +14,11 @@
     <li>Draggable, always-on-top overlay widget</li>
     <li>Start, Pause, Stop controls</li>
     <li>Adjustable typing <strong>speed</strong> and <strong>error percentage</strong></li>
-    <li>Fully supports <strong>Unicode characters</strong> (é, ç, œ, …)</li>
     <li>Background writing using UI Automation when possible</li>
     <li>Fallback to foreground typing (clipboard-based for full Unicode support)</li>
     <li>Global hotkeys:
         <ul>
-            <li><code>Alt + Shift + T</code> → capture target text field</li>
+            <li><code>Alt + Shift + U</code> → capture target text field</li>
             <li><code>Alt + Shift + Q</code> → quit application</li>
         </ul>
     </li>
@@ -54,7 +53,7 @@ pip install -r requirements.txt
         <ol>
             <li>Switch to the app you want to type in</li>
             <li>Click the text field</li>
-            <li>Press <code>Alt + Shift + T</code></li>
+            <li>Press <code>Alt + Shift + U</code></li>
         </ol>
     </li>
     <li>Adjust speed and error percentage sliders if desired.</li>
