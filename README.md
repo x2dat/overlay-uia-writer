@@ -46,7 +46,6 @@ pip install -r requirements.txt
 <h2>Download</h2>
 <p><a class="button" href="https://github.com/x2dat/overlay-uia-writer/blob/main/DOWNLOAD.md" target="_blank">Go to Download</a></p>
 <br>
-<>
 
 <h2>Usage</h2>
 <ol>
