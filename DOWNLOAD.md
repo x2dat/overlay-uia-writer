@@ -29,7 +29,7 @@
     </ol>
     <p><strong>Note:</strong> For apps that support UI Automation, typing happens in the background. Otherwise, it uses foreground typing with clipboard-based Unicode support.</p>
     <h2>License</h2>
-    <p>APACHE License &copy;</p>
+    <p>APACHE 2.0 License &copy;</p>
 </div>
 
 </body>
