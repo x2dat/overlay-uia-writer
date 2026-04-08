@@ -71,7 +71,7 @@ pip install -r requirements.txt
 </ul>
 
 <h2>License</h2>
-<p>APACHE 2.0 License &copy;</p>
+<p>.APACHE 2.0 License &copy;</p>
 
 </body>
 </html>
