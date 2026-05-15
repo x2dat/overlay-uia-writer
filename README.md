@@ -29,7 +29,7 @@
 <p>None for now</p>
 
 <h2>Installation</h2>
-<pre><code>git clone https://github.com/yourusername/overlay-typing-app.git
+<pre><code>git clone https://github.com/x2dat/overlay-uia-writer.git
 cd overlay-typing-app
 pip install -r requirements.txt
 </code></pre>
