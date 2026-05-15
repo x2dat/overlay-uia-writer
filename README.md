@@ -7,7 +7,7 @@
 
 <h1>Overlay Typing App</h1>
 
-<p>A Python-based <strong>draggable overlay typing tool</strong> that can automatically type text in any app. Supports <strong>Unicode characters</strong>, including French accents and special symbols, with adjustable speed and error simulation.</p>
+<p>A Python-based <strong>draggable overlay typing tool</strong> that can automatically type text in any app. Supports <strong>Unicode characters</strong>, including French accents and special symbols [NOT IN VERSION 1, ONLY 1.2], with adjustable speed and error simulation.</p>
 
 <h2>Features</h2>
 <ul>
