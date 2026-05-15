@@ -30,7 +30,7 @@
 
 <h2>Installation</h2>
 <pre><code>git clone https://github.com/x2dat/overlay-uia-writer.git
-cd overlay-typing-app
+cd overlay-uia-writer
 pip install -r requirements.txt
 </code></pre>
 
